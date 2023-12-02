@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cadwyn-code-assistant"
+version = "0.1.0"
+description = ""
+authors = ["kvasilkov <konstantin.vasilkov@monite.com>"]
+readme = "README.md"
+packages = [{include = "cadwyn_code_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
