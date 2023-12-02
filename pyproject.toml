@@ -8,6 +8,7 @@ packages = [{include = "cadwyn_code_assistant"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+openai = "^1.3.7"
 
 
 [build-system]
